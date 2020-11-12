@@ -1,14 +1,15 @@
-package main_test
+package main
 
 import "testing"
 
 func TestSum(t *testing.T) {
-	t.Log("executing", "TestSum(1)")
-	t.Log("executing", "TestSum(2)")
+	main()
+	// t.Log("executing", "TestSum(1)")
+	// t.Log("executing", "TestSum(2)")
 }
 
 func TestMin(t *testing.T) {
-	t.Log("executing", "TestMin")
+	// t.Log("executing", "TestMin")
 }
 
 // return func(ctx context.Context, d *schema.ResourceData, m interface{}) diag.Diagnostics {
