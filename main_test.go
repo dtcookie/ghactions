@@ -3,7 +3,8 @@ package main_test
 import "testing"
 
 func TestSum(t *testing.T) {
-	t.Log("executing", "TestSum")
+	t.Log("executing", "TestSum(1)")
+	t.Log("executing", "TestSum(2)")
 }
 
 func TestMin(t *testing.T) {
