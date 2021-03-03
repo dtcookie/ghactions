@@ -3,16 +3,7 @@
 		<div xmlns="http://www.w3.org/1999/xhtml">
 <style>
 .container {
-					font-family:
-						system-ui,
-						-apple-system,
-						'Segoe UI',
-						Roboto,
-						Helvetica,
-						Arial,
-						sans-serif,
-						'Apple Color Emoji',
-						'Segoe UI Emoji';
+
 					display: flex;
 					flex-direction: column;
 					align-items: center;
@@ -26,7 +17,6 @@
 </style>
 <div class="container">
 				<h1>Made with HTML &amp; CSS<br/>not an animated GIF</h1>
-				<p>Click to see the source</p>
 			</div>
 		</div>
 	</foreignObject>
