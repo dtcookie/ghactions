@@ -2,50 +2,32 @@
 
 <a href="https://github.com/dtcookie/ghactions"><img alt="GitHub Actions status" src="https://github.com/dtcookie/ghactions/workflows/Tests/badge.svg"></a>
 
-Tab group 1:
-
-# [Tab Text 1](#tab/tabid-1)
-
-Tab content-1-1.
-
-# [Tab Text 2](#tab/tabid-2)
-
-Tab content-2-1.
-
-***
-
-Tab group 2:
-
-# [Tab Text A](#tab/tabid-a)
-
-Tab content-a-1.
-
-# [Tab Text B](#tab/tabid-b)
-
-Tab content-b-1.
-
-***
-
-Tab group 3:
-
-# [Tab Text 1](#tab/tabid-1)
-
-Tab content-1-1.
-
-# [Tab Text 2](#tab/tabid-2)
-
-Tab content-2-1.
-
-***
-
-Tab group 4:
-
-# [Tab Text A](#tab/tabid-a)
-
-Tab content-a-2.
-
-# [Tab Text B](#tab/tabid-b)
-
-Tab content-b-2.
-
-***
+<head>
+	<link rel="stylesheet" type="css" href="css/tab.css" />
+	<script src="js/tab.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="tab-wrapper">
+	<div class="tab-button-wrapper">
+		<ul>
+			<li><a class="tab-button-first"
+				id="tab-button1"
+				href="javascript:void(0)"
+				onclick="loadTab(1)">Tab 1</a></li>
+			<li><a class="tab-button-hidden" 
+				id="tab-button2"
+				href="javascript:void(0)"
+				onclick="loadTab(2)">Tab 2</a></li>
+			<li><a class="tab-button-hidden tab-button-last" 
+				id="tab-button3"
+				href="javascript:void(0)"
+				onclick="loadTab(3)">Tab 3</a></li>
+		</ul>
+	</div>
+	<div class="tab-body-wrapper">
+		<div class="tab-body" id="tab1"><p>Body 1</p></div>
+		<div class="tab-body tab-body-hidden" id="tab2"><p>Body 2</p></div>
+		<div class="tab-body tab-body-hidden" id="tab3"><p>Body 3</p></div>
+	</div>
+	</div>
+</body>
