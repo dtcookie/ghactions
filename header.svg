@@ -16,9 +16,6 @@
 	<h1>Made with HTML &amp; CSS<br/>not an animated GIF</h1>
 	<div class="tabbed">
 		<input type="radio" id="tab1" name="css-tabs" checked />
-		<ul class="tabs">
-			<li class="tab"><label for="tab1">Gangsta lipsum</label></li>
-		</ul>
 	</div>	
 </div>
 </div>
