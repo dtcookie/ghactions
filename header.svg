@@ -2,10 +2,7 @@
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
 <style>
-.container {
-					color: black;
-					text-align: center;
-				}	
+.container { }	
 </style>
 <div class="container">
 				<h1>Made with HTML &amp; CSS<br/>not an animated GIF</h1>
